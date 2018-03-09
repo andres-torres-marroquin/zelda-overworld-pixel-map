@@ -720,39 +720,32 @@ solid "I_2"
       vertex -172 125 -7.65404212721e-15
     endloop
   endfacet
-  facet normal 0 0 -1
+  facet normal -0 0 -1
     outer loop
+      vertex -164 157 1.5
       vertex -172 157 -9.61347751486e-15
-      vertex -172 157 14
-      vertex -170 157 8
-    endloop
-  endfacet
-  facet normal 0 0 -1
-    outer loop
-      vertex -170 157 8
-      vertex -172 157 14
-      vertex -170 157 10
-    endloop
-  endfacet
-  facet normal 0 0 -1
-    outer loop
-      vertex -164 157 1.5
-      vertex -170 157 8
-      vertex -168 157 8
-    endloop
-  endfacet
-  facet normal 0 0 -1
-    outer loop
-      vertex -168 157 8
       vertex -166 157 8
-      vertex -164 157 1.5
     endloop
   endfacet
   facet normal 0 0 -1
     outer loop
-      vertex -164 157 1.5
-      vertex -166 157 8
-      vertex -164 157 8
+      vertex -169 157 9
+      vertex -172 157 14
+      vertex -170 157 12
+    endloop
+  endfacet
+  facet normal -0 -0 -1
+    outer loop
+      vertex -168 157 12
+      vertex -168 157 10
+      vertex -170 157 12
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex -169 157 9
+      vertex -170 157 12
+      vertex -168 157 10
     endloop
   endfacet
   facet normal 0 1 0
@@ -1261,23 +1254,9 @@ solid "I_2"
   endfacet
   facet normal 0 0 -1
     outer loop
-      vertex -170 157 10
-      vertex -170 157 12
-      vertex -168 157 12
-    endloop
-  endfacet
-  facet normal 0 -0 -1
-    outer loop
-      vertex -168 157 12
-      vertex -168 157 10
-      vertex -170 157 10
-    endloop
-  endfacet
-  facet normal 1 0 0
-    outer loop
-      vertex -168 157 10
-      vertex -168 157 12
-      vertex -168 155 10
+      vertex -164 157 1.5
+      vertex -166 157 8
+      vertex -164 157 8
     endloop
   endfacet
   facet normal 1 -0 0
@@ -1308,27 +1287,6 @@ solid "I_2"
       vertex -168 157 10
     endloop
   endfacet
-  facet normal 0 1 0
-    outer loop
-      vertex -168 157 10
-      vertex -166 155 10
-      vertex -166 157 10
-    endloop
-  endfacet
-  facet normal 0 0 -1
-    outer loop
-      vertex -168 157 10
-      vertex -166 157 10
-      vertex -168 157 8
-    endloop
-  endfacet
-  facet normal 1 0 0
-    outer loop
-      vertex -166 157 8
-      vertex -166 157 10
-      vertex -166 155 10
-    endloop
-  endfacet
   facet normal 1 0 0
     outer loop
       vertex -166 155 10
@@ -1357,32 +1315,11 @@ solid "I_2"
       vertex -166 151 8
     endloop
   endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex -166 151 8
-      vertex -168 151 10
-      vertex -168 151 8
-    endloop
-  endfacet
   facet normal 0 1 0
     outer loop
       vertex -166 151 10
       vertex -168 153 10
       vertex -168 151 10
-    endloop
-  endfacet
-  facet normal 0 1 -0
-    outer loop
-      vertex -166 153 10
-      vertex -168 153 10
-      vertex -166 151 10
-    endloop
-  endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex -166 153 10
-      vertex -168 153 12
-      vertex -168 153 10
     endloop
   endfacet
   facet normal 1 0 0
@@ -1394,9 +1331,23 @@ solid "I_2"
   endfacet
   facet normal 0 0 1
     outer loop
+      vertex -166 153 10
+      vertex -168 153 12
+      vertex -168 153 10
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
       vertex -166 153 12
       vertex -168 153 12
       vertex -166 153 10
+    endloop
+  endfacet
+  facet normal 0 1 -0
+    outer loop
+      vertex -166 153 10
+      vertex -168 153 10
+      vertex -166 151 10
     endloop
   endfacet
   facet normal 1 -0 0
@@ -1411,6 +1362,13 @@ solid "I_2"
       vertex -168 155 12
       vertex -166 153 12
       vertex -166 155 12
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex -168 157 10
+      vertex -168 157 12
+      vertex -168 155 10
     endloop
   endfacet
   facet normal -0 1 0
@@ -1432,6 +1390,13 @@ solid "I_2"
       vertex -168 151 10
       vertex -168 153 12
       vertex -168 147 12
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex -166 151 8
+      vertex -168 151 10
+      vertex -168 151 8
     endloop
   endfacet
   facet normal 0 0 1
@@ -1469,32 +1434,39 @@ solid "I_2"
       vertex -166 151 8
     endloop
   endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex -166 157 8
+      vertex -166 157 10
+      vertex -166 155 10
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex -168 157 10
+      vertex -166 155 10
+      vertex -166 157 10
+    endloop
+  endfacet
+  facet normal 0 -0 -1
+    outer loop
+      vertex -169 157 9
+      vertex -166 157 8
+      vertex -172 157 -9.61347751486e-15
+    endloop
+  endfacet
   facet normal 0 0 -1
     outer loop
-      vertex -168 157 8
+      vertex -169 157 9
       vertex -166 157 10
       vertex -166 157 8
     endloop
   endfacet
-  facet normal 0 0 -1
+  facet normal 0 -0 -1
     outer loop
-      vertex -170 157 10
       vertex -168 157 10
-      vertex -170 157 8
-    endloop
-  endfacet
-  facet normal 0 0 -1
-    outer loop
-      vertex -168 157 8
-      vertex -170 157 8
-      vertex -168 157 10
-    endloop
-  endfacet
-  facet normal 0 0 -1
-    outer loop
-      vertex -170 157 10
-      vertex -172 157 14
-      vertex -170 157 12
+      vertex -166 157 10
+      vertex -169 157 9
     endloop
   endfacet
   facet normal -0 1 0
@@ -1728,11 +1700,11 @@ solid "I_2"
       vertex -164 125 1.5
     endloop
   endfacet
-  facet normal -0 0 -1
+  facet normal 0 0 -1
     outer loop
-      vertex -164 157 1.5
       vertex -172 157 -9.61347751486e-15
-      vertex -170 157 8
+      vertex -172 157 14
+      vertex -169 157 9
     endloop
   endfacet
   facet normal 0 -1 0
